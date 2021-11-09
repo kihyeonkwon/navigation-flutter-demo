@@ -15,6 +15,7 @@ class Screen0 extends StatelessWidget {
               color: Colors.red,
               child: Text('Go To Screen 1'),
               onPressed: () {
+                Navigator.pushNamed(context, '/1');
                 //Navigate to Screen 1
               },
             ),
@@ -22,6 +23,7 @@ class Screen0 extends StatelessWidget {
               color: Colors.blue,
               child: Text('Go To Screen 2'),
               onPressed: () {
+                Navigator.pushNamed(context, '/2');
                 //Navigate to Screen 2
               },
             ),
